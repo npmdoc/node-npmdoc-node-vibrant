@@ -8,7 +8,7 @@
 <tspan x="10" y="90">  ├── @types/bluebird@3.5.2 </tspan>
 <tspan x="10" y="106">  ├── @types/jimp@0.2.1 </tspan>
 <tspan x="10" y="122">  ├── @types/lodash@4.14.62 </tspan>
-<tspan x="10" y="138">  ├── @types/node@7.0.12 </tspan>
+<tspan x="10" y="138">  ├── @types/node@7.0.13 </tspan>
 <tspan x="10" y="154">  ├── bluebird@3.5.0 </tspan>
 <tspan x="10" y="170">  ├─┬ jimp@0.2.27 </tspan>
 <tspan x="10" y="186">  │ ├── bignumber.js@2.4.0 </tspan>
@@ -27,7 +27,7 @@
 <tspan x="10" y="394">  │ │ │   ├── sax@1.2.2 </tspan>
 <tspan x="10" y="410">  │ │ │   └── xmlbuilder@4.2.1 </tspan>
 <tspan x="10" y="426">  │ │ ├─┬ xhr@2.4.0 </tspan>
-<tspan x="10" y="442">  │ │ │ ├─┬ global@4.3.1 </tspan>
+<tspan x="10" y="442">  │ │ │ ├─┬ global@4.3.2 </tspan>
 <tspan x="10" y="458">  │ │ │ │ ├─┬ min-document@2.19.0 </tspan>
 <tspan x="10" y="474">  │ │ │ │ │ └── dom-walk@0.1.1 </tspan>
 <tspan x="10" y="490">  │ │ │ │ └── process@0.5.2 </tspan>

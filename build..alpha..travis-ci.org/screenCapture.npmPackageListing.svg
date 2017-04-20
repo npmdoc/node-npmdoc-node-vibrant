@@ -1,80 +1,182 @@
-<svg height="1230" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="1230" fill="#555" width="720"></rect>
+<svg height="2862" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2862" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-17 19:29:43 +0000   927001 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-17 19:29:43 +0000     1081 bytes  LICENSE.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-17 19:29:43 +0000    12380 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-17 19:29:43 +0000   267024 bytes  dist/vibrant.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-17 19:29:43 +0000    36403 bytes  dist/vibrant.min.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-17 19:29:43 +0000   181166 bytes  examples/1.jpg</tspan>
-<tspan x="10" y="122">  6.  2017-04-17 19:29:43 +0000    81955 bytes  examples/2.jpg</tspan>
-<tspan x="10" y="138">  7.  2017-04-17 19:29:43 +0000    78821 bytes  examples/3.jpg</tspan>
-<tspan x="10" y="154">  8.  2017-04-17 19:29:43 +0000   100924 bytes  examples/4.jpg</tspan>
-<tspan x="10" y="170">  9.  2017-04-17 19:29:43 +0000     1573 bytes  examples/index.html</tspan>
-<tspan x="10" y="186"> 10.  2017-04-17 19:29:43 +0000      497 bytes  examples/node-example.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-17 19:29:43 +0000      119 bytes  gulp-task/benchmark.coffee</tspan>
-<tspan x="10" y="218"> 12.  2017-04-17 19:29:43 +0000      442 bytes  gulp-task/browserify.coffee</tspan>
-<tspan x="10" y="234"> 13.  2017-04-17 19:29:43 +0000      126 bytes  gulp-task/clean.coffee</tspan>
-<tspan x="10" y="250"> 14.  2017-04-17 19:29:43 +0000      130 bytes  gulp-task/coffee.coffee</tspan>
-<tspan x="10" y="266"> 15.  2017-04-17 19:29:43 +0000      111 bytes  gulp-task/karma.coffee</tspan>
-<tspan x="10" y="282"> 16.  2017-04-17 19:29:43 +0000      119 bytes  gulp-task/mocha.coffee</tspan>
-<tspan x="10" y="298"> 17.  2017-04-17 19:29:43 +0000      652 bytes  gulpconfig.coffee</tspan>
-<tspan x="10" y="314"> 18.  2017-04-17 19:29:43 +0000      438 bytes  gulpfile.coffee</tspan>
-<tspan x="10" y="330"> 19.  2017-04-17 19:29:43 +0000     2087 bytes  karma.conf.coffee</tspan>
-<tspan x="10" y="346"> 20.  2017-04-17 19:29:43 +0000      130 bytes  lib/browser.js</tspan>
-<tspan x="10" y="362"> 21.  2017-04-17 19:29:43 +0000       63 bytes  lib/bundle.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-17 19:29:43 +0000       98 bytes  lib/filter/default.js</tspan>
-<tspan x="10" y="394"> 23.  2017-04-17 19:29:43 +0000       47 bytes  lib/filter/index.js</tspan>
-<tspan x="10" y="410"> 24.  2017-04-17 19:29:43 +0000     6302 bytes  lib/generator/default.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-17 19:29:43 +0000      572 bytes  lib/generator/index.js</tspan>
-<tspan x="10" y="442"> 26.  2017-04-17 19:29:43 +0000     3099 bytes  lib/image/browser.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-17 19:29:43 +0000      961 bytes  lib/image/index.js</tspan>
-<tspan x="10" y="474"> 28.  2017-04-17 19:29:43 +0000     2548 bytes  lib/image/node.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-17 19:29:43 +0000      127 bytes  lib/index.js</tspan>
-<tspan x="10" y="506"> 30.  2017-04-17 19:29:43 +0000     1610 bytes  lib/quantizer/baseline.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-17 19:29:43 +0000     1170 bytes  lib/quantizer/color-cut.js</tspan>
-<tspan x="10" y="538"> 32.  2017-04-17 19:29:43 +0000    10836 bytes  lib/quantizer/impl/color-cut.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-17 19:29:43 +0000     2630 bytes  lib/quantizer/impl/mmcq.js</tspan>
-<tspan x="10" y="570"> 34.  2017-04-17 19:29:43 +0000      956 bytes  lib/quantizer/impl/pqueue.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-17 19:29:43 +0000     6566 bytes  lib/quantizer/impl/vbox.js</tspan>
-<tspan x="10" y="602"> 36.  2017-04-17 19:29:43 +0000      277 bytes  lib/quantizer/index.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-17 19:29:43 +0000      921 bytes  lib/quantizer/mmcq.js</tspan>
-<tspan x="10" y="634"> 38.  2017-04-17 19:29:43 +0000     1403 bytes  lib/swatch.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-17 19:29:43 +0000     5524 bytes  lib/util.js</tspan>
-<tspan x="10" y="666"> 40.  2017-04-17 19:29:43 +0000     4548 bytes  lib/vibrant.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-17 19:29:43 +0000     3458 bytes  package.json</tspan>
-<tspan x="10" y="698"> 42.  2017-04-17 19:29:43 +0000    31214 bytes  snapshot/color-diff.png</tspan>
-<tspan x="10" y="714"> 43.  2017-04-17 19:29:43 +0000      112 bytes  src/browser.coffee</tspan>
-<tspan x="10" y="730"> 44.  2017-04-17 19:29:43 +0000       48 bytes  src/bundle.coffee</tspan>
-<tspan x="10" y="746"> 45.  2017-04-17 19:29:43 +0000       88 bytes  src/filter/default.coffee</tspan>
-<tspan x="10" y="762"> 46.  2017-04-17 19:29:43 +0000       47 bytes  src/filter/index.coffee</tspan>
-<tspan x="10" y="778"> 47.  2017-04-17 19:29:43 +0000     4684 bytes  src/generator/default.coffee</tspan>
-<tspan x="10" y="794"> 48.  2017-04-17 19:29:43 +0000      279 bytes  src/generator/index.coffee</tspan>
-<tspan x="10" y="810"> 49.  2017-04-17 19:29:43 +0000     1779 bytes  src/image/browser.coffee</tspan>
-<tspan x="10" y="826"> 50.  2017-04-17 19:29:43 +0000      531 bytes  src/image/index.coffee</tspan>
-<tspan x="10" y="842"> 51.  2017-04-17 19:29:43 +0000     1152 bytes  src/image/node.coffee</tspan>
-<tspan x="10" y="858"> 52.  2017-04-17 19:29:43 +0000      109 bytes  src/index.coffee</tspan>
-<tspan x="10" y="874"> 53.  2017-04-17 19:29:43 +0000      799 bytes  src/quantizer/baseline.coffee</tspan>
-<tspan x="10" y="890"> 54.  2017-04-17 19:29:43 +0000      449 bytes  src/quantizer/color-cut.coffee</tspan>
-<tspan x="10" y="906"> 55.  2017-04-17 19:29:43 +0000     8743 bytes  src/quantizer/impl/color-cut.coffee</tspan>
-<tspan x="10" y="922"> 56.  2017-04-17 19:29:43 +0000     2150 bytes  src/quantizer/impl/mmcq.coffee</tspan>
-<tspan x="10" y="938"> 57.  2017-04-17 19:29:43 +0000      531 bytes  src/quantizer/impl/pqueue.coffee</tspan>
-<tspan x="10" y="954"> 58.  2017-04-17 19:29:43 +0000     6769 bytes  src/quantizer/impl/vbox.coffee</tspan>
-<tspan x="10" y="970"> 59.  2017-04-17 19:29:43 +0000      132 bytes  src/quantizer/index.coffee</tspan>
-<tspan x="10" y="986"> 60.  2017-04-17 19:29:43 +0000      297 bytes  src/quantizer/mmcq.coffee</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-17 19:29:43 +0000      789 bytes  src/swatch.coffee</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-17 19:29:43 +0000     4527 bytes  src/util.coffee</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-17 19:29:43 +0000     2869 bytes  src/vibrant.coffee</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-17 19:29:43 +0000      751 bytes  test/data/chrome-exec-ref.json</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-17 19:29:43 +0000      751 bytes  test/data/firefox-exec-ref.json</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-17 19:29:43 +0000      751 bytes  test/data/ie11-exec-ref.json</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-17 19:29:43 +0000     3686 bytes  test/mmcq.spec.coffee</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-17 19:29:43 +0000      747 bytes  test/vibrant.api.spec.coffee</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-17 19:29:43 +0000     3957 bytes  test/vibrant.browser-spec.coffee</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-17 19:29:43 +0000      453 bytes  test/vibrant.color-count.benchmark.coffee</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-17 19:29:43 +0000      419 bytes  test/vibrant.quality.benchmark.coffee</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-17 19:29:43 +0000      741 bytes  test/vibrant.quantizer.benchmark.coffee</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-17 19:29:43 +0000     4219 bytes  test/vibrant.spec.coffee</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-17 19:29:43 +0000    22534 bytes  vendor-mod/quantize.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-20 20:30:50 +0000  2180135 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-20 20:30:50 +0000     1081 bytes  LICENSE.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-20 20:30:50 +0000    10508 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-20 20:30:50 +0000   181166 bytes  data/1.jpg</tspan>
+<tspan x="10" y="90">  4.  2017-04-20 20:30:50 +0000    81955 bytes  data/2.jpg</tspan>
+<tspan x="10" y="106">  5.  2017-04-20 20:30:50 +0000    78820 bytes  data/3.jpg</tspan>
+<tspan x="10" y="122">  6.  2017-04-20 20:30:50 +0000   100924 bytes  data/4.jpg</tspan>
+<tspan x="10" y="138">  7.  2017-04-20 20:30:50 +0000      717 bytes  data/chrome-exec-ref.json</tspan>
+<tspan x="10" y="154">  8.  2017-04-20 20:30:50 +0000      717 bytes  data/firefox-exec-ref.json</tspan>
+<tspan x="10" y="170">  9.  2017-04-20 20:30:50 +0000      717 bytes  data/ie11-exec-ref.json</tspan>
+<tspan x="10" y="186"> 10.  2017-04-20 20:30:50 +0000     1604 bytes  data/index.html</tspan>
+<tspan x="10" y="202"> 11.  2017-04-20 20:30:50 +0000      497 bytes  data/node-example.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-20 20:30:50 +0000   366377 bytes  dist/vibrant.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-20 20:30:50 +0000   480443 bytes  dist/vibrant.js.map</tspan>
+<tspan x="10" y="250"> 14.  2017-04-20 20:30:50 +0000   128242 bytes  dist/vibrant.min.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-20 20:30:50 +0000   181166 bytes  examples/1.jpg</tspan>
+<tspan x="10" y="282"> 16.  2017-04-20 20:30:50 +0000    81955 bytes  examples/2.jpg</tspan>
+<tspan x="10" y="298"> 17.  2017-04-20 20:30:50 +0000    78821 bytes  examples/3.jpg</tspan>
+<tspan x="10" y="314"> 18.  2017-04-20 20:30:50 +0000   100924 bytes  examples/4.jpg</tspan>
+<tspan x="10" y="330"> 19.  2017-04-20 20:30:50 +0000     1573 bytes  examples/index.html</tspan>
+<tspan x="10" y="346"> 20.  2017-04-20 20:30:50 +0000      497 bytes  examples/node-example.js</tspan>
+<tspan x="10" y="362"> 21.  2017-04-20 20:30:50 +0000      119 bytes  gulp-task/benchmark.coffee</tspan>
+<tspan x="10" y="378"> 22.  2017-04-20 20:30:50 +0000      442 bytes  gulp-task/browserify.coffee</tspan>
+<tspan x="10" y="394"> 23.  2017-04-20 20:30:50 +0000      126 bytes  gulp-task/clean.coffee</tspan>
+<tspan x="10" y="410"> 24.  2017-04-20 20:30:50 +0000      130 bytes  gulp-task/coffee.coffee</tspan>
+<tspan x="10" y="426"> 25.  2017-04-20 20:30:50 +0000      111 bytes  gulp-task/karma.coffee</tspan>
+<tspan x="10" y="442"> 26.  2017-04-20 20:30:50 +0000      119 bytes  gulp-task/mocha.coffee</tspan>
+<tspan x="10" y="458"> 27.  2017-04-20 20:30:50 +0000      652 bytes  gulpconfig.coffee</tspan>
+<tspan x="10" y="474"> 28.  2017-04-20 20:30:50 +0000      438 bytes  gulpfile.coffee</tspan>
+<tspan x="10" y="490"> 29.  2017-04-20 20:30:50 +0000     2087 bytes  karma.conf.coffee</tspan>
+<tspan x="10" y="506"> 30.  2017-04-20 20:30:50 +0000     1981 bytes  karma.conf.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-20 20:30:50 +0000       53 bytes  lib/browser.d.ts</tspan>
+<tspan x="10" y="538"> 32.  2017-04-20 20:30:50 +0000      234 bytes  lib/browser.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-20 20:30:50 +0000      202 bytes  lib/browser.js.map</tspan>
+<tspan x="10" y="570"> 34.  2017-04-20 20:30:50 +0000      898 bytes  lib/builder.d.ts</tspan>
+<tspan x="10" y="586"> 35.  2017-04-20 20:30:50 +0000     2005 bytes  lib/builder.js</tspan>
+<tspan x="10" y="602"> 36.  2017-04-20 20:30:50 +0000     1804 bytes  lib/builder.js.map</tspan>
+<tspan x="10" y="618"> 37.  2017-04-20 20:30:50 +0000        0 bytes  lib/bundle.d.ts</tspan>
+<tspan x="10" y="634"> 38.  2017-04-20 20:30:50 +0000      284 bytes  lib/bundle.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-20 20:30:50 +0000      284 bytes  lib/bundle.js.map</tspan>
+<tspan x="10" y="666"> 40.  2017-04-20 20:30:50 +0000      678 bytes  lib/color.d.ts</tspan>
+<tspan x="10" y="682"> 41.  2017-04-20 20:30:50 +0000     1423 bytes  lib/color.js</tspan>
+<tspan x="10" y="698"> 42.  2017-04-20 20:30:50 +0000     1422 bytes  lib/color.js.map</tspan>
+<tspan x="10" y="714"> 43.  2017-04-20 20:30:50 +0000       93 bytes  lib/filter/default.d.ts</tspan>
+<tspan x="10" y="730"> 44.  2017-04-20 20:30:50 +0000      256 bytes  lib/filter/default.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-20 20:30:50 +0000      297 bytes  lib/filter/default.js.map</tspan>
+<tspan x="10" y="762"> 46.  2017-04-20 20:30:50 +0000       49 bytes  lib/filter/index.d.ts</tspan>
+<tspan x="10" y="778"> 47.  2017-04-20 20:30:50 +0000      189 bytes  lib/filter/index.js</tspan>
+<tspan x="10" y="794"> 48.  2017-04-20 20:30:50 +0000      147 bytes  lib/filter/index.js.map</tspan>
+<tspan x="10" y="810"> 49.  2017-04-20 20:30:50 +0000      118 bytes  lib/generator/default.d.ts</tspan>
+<tspan x="10" y="826"> 50.  2017-04-20 20:30:50 +0000     4930 bytes  lib/generator/default.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-20 20:30:50 +0000     4804 bytes  lib/generator/default.js.map</tspan>
+<tspan x="10" y="858"> 52.  2017-04-20 20:30:50 +0000       49 bytes  lib/generator/index.d.ts</tspan>
+<tspan x="10" y="874"> 53.  2017-04-20 20:30:50 +0000      189 bytes  lib/generator/index.js</tspan>
+<tspan x="10" y="890"> 54.  2017-04-20 20:30:50 +0000      150 bytes  lib/generator/index.js.map</tspan>
+<tspan x="10" y="906"> 55.  2017-04-20 20:30:50 +0000      649 bytes  lib/image/base.d.ts</tspan>
+<tspan x="10" y="922"> 56.  2017-04-20 20:30:50 +0000      760 bytes  lib/image/base.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-20 20:30:50 +0000      768 bytes  lib/image/base.js.map</tspan>
+<tspan x="10" y="954"> 58.  2017-04-20 20:30:50 +0000      693 bytes  lib/image/browser.d.ts</tspan>
+<tspan x="10" y="970"> 59.  2017-04-20 20:30:50 +0000     4275 bytes  lib/image/browser.js</tspan>
+<tspan x="10" y="986"> 60.  2017-04-20 20:30:50 +0000     3491 bytes  lib/image/browser.js.map</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-20 20:30:50 +0000      961 bytes  lib/image/index.js</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-20 20:30:50 +0000      680 bytes  lib/image/node.d.ts</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-20 20:30:50 +0000     3902 bytes  lib/image/node.js</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-20 20:30:50 +0000     2881 bytes  lib/image/node.js.map</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-20 20:30:50 +0000       53 bytes  lib/index.d.ts</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-20 20:30:50 +0000      223 bytes  lib/index.js</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-20 20:30:50 +0000      197 bytes  lib/index.js.map</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-20 20:30:50 +0000     1610 bytes  lib/quantizer/baseline.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-20 20:30:50 +0000     1170 bytes  lib/quantizer/color-cut.js</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-20 20:30:50 +0000    10836 bytes  lib/quantizer/impl/color-cut.js</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-20 20:30:50 +0000     2630 bytes  lib/quantizer/impl/mmcq.js</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-20 20:30:50 +0000      956 bytes  lib/quantizer/impl/pqueue.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-20 20:30:50 +0000     6566 bytes  lib/quantizer/impl/vbox.js</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-20 20:30:50 +0000       43 bytes  lib/quantizer/index.d.ts</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-20 20:30:50 +0000      177 bytes  lib/quantizer/index.js</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-20 20:30:50 +0000      150 bytes  lib/quantizer/index.js.map</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-20 20:30:50 +0000       94 bytes  lib/quantizer/mmcq.d.ts</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-20 20:30:50 +0000     2438 bytes  lib/quantizer/mmcq.js</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-20 20:30:50 +0000     2716 bytes  lib/quantizer/mmcq.js.map</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-20 20:30:50 +0000      399 bytes  lib/quantizer/pqueue.d.ts</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-20 20:30:50 +0000     1154 bytes  lib/quantizer/pqueue.js</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-20 20:30:50 +0000     1119 bytes  lib/quantizer/pqueue.js.map</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-20 20:30:50 +0000      723 bytes  lib/quantizer/vbox.d.ts</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-20 20:30:50 +0000     8474 bytes  lib/quantizer/vbox.js</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-20 20:30:50 +0000     9894 bytes  lib/quantizer/vbox.js.map</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-20 20:30:50 +0000     1403 bytes  lib/swatch.js</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-20 20:30:50 +0000        0 bytes  lib/test/builder.spec.d.ts</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-20 20:30:50 +0000     1191 bytes  lib/test/builder.spec.js</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-20 20:30:50 +0000      865 bytes  lib/test/builder.spec.js.map</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-20 20:30:50 +0000      377 bytes  lib/test/common/data.d.ts</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-20 20:30:50 +0000      987 bytes  lib/test/common/data.js</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-20 20:30:50 +0000      750 bytes  lib/test/common/data.js.map</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-20 20:30:50 +0000      460 bytes  lib/test/common/helper.d.ts</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-20 20:30:50 +0000     3554 bytes  lib/test/common/helper.js</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-20 20:30:50 +0000     3476 bytes  lib/test/common/helper.js.map</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-20 20:30:50 +0000      125 bytes  lib/test/common/server.d.ts</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-20 20:30:50 +0000      693 bytes  lib/test/common/server.js</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-20 20:30:50 +0000      668 bytes  lib/test/common/server.js.map</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-20 20:30:50 +0000        0 bytes  lib/test/vibrant.browser-spec.d.ts</tspan>
+<tspan x="10" y="1626">100.  2017-04-20 20:30:50 +0000     3813 bytes  lib/test/vibrant.browser-spec.js</tspan>
+<tspan x="10" y="1642">101.  2017-04-20 20:30:50 +0000     3489 bytes  lib/test/vibrant.browser-spec.js.map</tspan>
+<tspan x="10" y="1658">102.  2017-04-20 20:30:50 +0000        0 bytes  lib/test/vibrant.spec.d.ts</tspan>
+<tspan x="10" y="1674">103.  2017-04-20 20:30:50 +0000     1304 bytes  lib/test/vibrant.spec.js</tspan>
+<tspan x="10" y="1690">104.  2017-04-20 20:30:50 +0000     1111 bytes  lib/test/vibrant.spec.js.map</tspan>
+<tspan x="10" y="1706">105.  2017-04-20 20:30:50 +0000     1648 bytes  lib/typing.d.ts</tspan>
+<tspan x="10" y="1722">106.  2017-04-20 20:30:50 +0000      113 bytes  lib/typing.js</tspan>
+<tspan x="10" y="1738">107.  2017-04-20 20:30:50 +0000      104 bytes  lib/typing.js.map</tspan>
+<tspan x="10" y="1754">108.  2017-04-20 20:30:50 +0000     1478 bytes  lib/util.d.ts</tspan>
+<tspan x="10" y="1770">109.  2017-04-20 20:30:50 +0000     5697 bytes  lib/util.js</tspan>
+<tspan x="10" y="1786">110.  2017-04-20 20:30:50 +0000     7937 bytes  lib/util.js.map</tspan>
+<tspan x="10" y="1802">111.  2017-04-20 20:30:50 +0000      953 bytes  lib/vibrant.d.ts</tspan>
+<tspan x="10" y="1818">112.  2017-04-20 20:30:50 +0000     2034 bytes  lib/vibrant.js</tspan>
+<tspan x="10" y="1834">113.  2017-04-20 20:30:50 +0000     1729 bytes  lib/vibrant.js.map</tspan>
+<tspan x="10" y="1850">114.  2017-04-20 20:30:50 +0000     2148 bytes  package.json</tspan>
+<tspan x="10" y="1866">115.  2017-04-20 20:30:50 +0000    31214 bytes  snapshot/color-diff.png</tspan>
+<tspan x="10" y="1882">116.  2017-04-20 20:30:50 +0000      112 bytes  src/browser.coffee</tspan>
+<tspan x="10" y="1898">117.  2017-04-20 20:30:50 +0000      140 bytes  src/browser.ts</tspan>
+<tspan x="10" y="1914">118.  2017-04-20 20:30:50 +0000     1858 bytes  src/builder.ts</tspan>
+<tspan x="10" y="1930">119.  2017-04-20 20:30:50 +0000       48 bytes  src/bundle.coffee</tspan>
+<tspan x="10" y="1946">120.  2017-04-20 20:30:50 +0000      169 bytes  src/bundle.ts</tspan>
+<tspan x="10" y="1962">121.  2017-04-20 20:30:50 +0000     1437 bytes  src/color.ts</tspan>
+<tspan x="10" y="1978">122.  2017-04-20 20:30:50 +0000       88 bytes  src/filter/default.coffee</tspan>
+<tspan x="10" y="1994">123.  2017-04-20 20:30:50 +0000      193 bytes  src/filter/default.ts</tspan>
+<tspan x="10" y="2010">124.  2017-04-20 20:30:50 +0000       47 bytes  src/filter/index.coffee</tspan>
+<tspan x="10" y="2026">125.  2017-04-20 20:30:50 +0000       46 bytes  src/filter/index.ts</tspan>
+<tspan x="10" y="2042">126.  2017-04-20 20:30:50 +0000     4684 bytes  src/generator/default.coffee</tspan>
+<tspan x="10" y="2058">127.  2017-04-20 20:30:50 +0000     5914 bytes  src/generator/default.ts</tspan>
+<tspan x="10" y="2074">128.  2017-04-20 20:30:50 +0000      279 bytes  src/generator/index.coffee</tspan>
+<tspan x="10" y="2090">129.  2017-04-20 20:30:50 +0000       46 bytes  src/generator/index.ts</tspan>
+<tspan x="10" y="2106">130.  2017-04-20 20:30:50 +0000     1057 bytes  src/image/base.ts</tspan>
+<tspan x="10" y="2122">131.  2017-04-20 20:30:50 +0000     1779 bytes  src/image/browser.coffee</tspan>
+<tspan x="10" y="2138">132.  2017-04-20 20:30:50 +0000     3343 bytes  src/image/browser.ts</tspan>
+<tspan x="10" y="2154">133.  2017-04-20 20:30:50 +0000      531 bytes  src/image/index.coffee</tspan>
+<tspan x="10" y="2170">134.  2017-04-20 20:30:50 +0000     1152 bytes  src/image/node.coffee</tspan>
+<tspan x="10" y="2186">135.  2017-04-20 20:30:50 +0000     3015 bytes  src/image/node.ts</tspan>
+<tspan x="10" y="2202">136.  2017-04-20 20:30:50 +0000      109 bytes  src/index.coffee</tspan>
+<tspan x="10" y="2218">137.  2017-04-20 20:30:50 +0000      131 bytes  src/index.ts</tspan>
+<tspan x="10" y="2234">138.  2017-04-20 20:30:50 +0000      799 bytes  src/quantizer/baseline.coffee</tspan>
+<tspan x="10" y="2250">139.  2017-04-20 20:30:50 +0000      449 bytes  src/quantizer/color-cut.coffee</tspan>
+<tspan x="10" y="2266">140.  2017-04-20 20:30:50 +0000     8743 bytes  src/quantizer/impl/color-cut.coffee</tspan>
+<tspan x="10" y="2282">141.  2017-04-20 20:30:50 +0000     2150 bytes  src/quantizer/impl/mmcq.coffee</tspan>
+<tspan x="10" y="2298">142.  2017-04-20 20:30:50 +0000      531 bytes  src/quantizer/impl/pqueue.coffee</tspan>
+<tspan x="10" y="2314">143.  2017-04-20 20:30:50 +0000     6769 bytes  src/quantizer/impl/vbox.coffee</tspan>
+<tspan x="10" y="2330">144.  2017-04-20 20:30:50 +0000      132 bytes  src/quantizer/index.coffee</tspan>
+<tspan x="10" y="2346">145.  2017-04-20 20:30:50 +0000       40 bytes  src/quantizer/index.ts</tspan>
+<tspan x="10" y="2362">146.  2017-04-20 20:30:50 +0000      297 bytes  src/quantizer/mmcq.coffee</tspan>
+<tspan x="10" y="2378">147.  2017-04-20 20:30:50 +0000     2181 bytes  src/quantizer/mmcq.ts</tspan>
+<tspan x="10" y="2394">148.  2017-04-20 20:30:50 +0000     1056 bytes  src/quantizer/pqueue.ts</tspan>
+<tspan x="10" y="2410">149.  2017-04-20 20:30:50 +0000     7778 bytes  src/quantizer/vbox.ts</tspan>
+<tspan x="10" y="2426">150.  2017-04-20 20:30:50 +0000      789 bytes  src/swatch.coffee</tspan>
+<tspan x="10" y="2442">151.  2017-04-20 20:30:50 +0000     1041 bytes  src/test/builder.spec.ts</tspan>
+<tspan x="10" y="2458">152.  2017-04-20 20:30:50 +0000     1029 bytes  src/test/common/data.ts</tspan>
+<tspan x="10" y="2474">153.  2017-04-20 20:30:50 +0000     3350 bytes  src/test/common/helper.ts</tspan>
+<tspan x="10" y="2490">154.  2017-04-20 20:30:50 +0000      617 bytes  src/test/common/server.ts</tspan>
+<tspan x="10" y="2506">155.  2017-04-20 20:30:50 +0000     3238 bytes  src/test/vibrant.browser-spec.ts</tspan>
+<tspan x="10" y="2522">156.  2017-04-20 20:30:50 +0000     1070 bytes  src/test/vibrant.spec.ts</tspan>
+<tspan x="10" y="2538">157.  2017-04-20 20:30:50 +0000     1475 bytes  src/typing.ts</tspan>
+<tspan x="10" y="2554">158.  2017-04-20 20:30:50 +0000     4527 bytes  src/util.coffee</tspan>
+<tspan x="10" y="2570">159.  2017-04-20 20:30:50 +0000     5520 bytes  src/util.ts</tspan>
+<tspan x="10" y="2586">160.  2017-04-20 20:30:50 +0000     2869 bytes  src/vibrant.coffee</tspan>
+<tspan x="10" y="2602">161.  2017-04-20 20:30:50 +0000     1874 bytes  src/vibrant.ts</tspan>
+<tspan x="10" y="2618">162.  2017-04-20 20:30:50 +0000      751 bytes  test/data/chrome-exec-ref.json</tspan>
+<tspan x="10" y="2634">163.  2017-04-20 20:30:50 +0000      751 bytes  test/data/firefox-exec-ref.json</tspan>
+<tspan x="10" y="2650">164.  2017-04-20 20:30:50 +0000      751 bytes  test/data/ie11-exec-ref.json</tspan>
+<tspan x="10" y="2666">165.  2017-04-20 20:30:50 +0000     3686 bytes  test/mmcq.spec.coffee</tspan>
+<tspan x="10" y="2682">166.  2017-04-20 20:30:50 +0000      747 bytes  test/vibrant.api.spec.coffee</tspan>
+<tspan x="10" y="2698">167.  2017-04-20 20:30:50 +0000     3957 bytes  test/vibrant.browser-spec.coffee</tspan>
+<tspan x="10" y="2714">168.  2017-04-20 20:30:50 +0000      453 bytes  test/vibrant.color-count.benchmark.coffee</tspan>
+<tspan x="10" y="2730">169.  2017-04-20 20:30:50 +0000      419 bytes  test/vibrant.quality.benchmark.coffee</tspan>
+<tspan x="10" y="2746">170.  2017-04-20 20:30:50 +0000      741 bytes  test/vibrant.quantizer.benchmark.coffee</tspan>
+<tspan x="10" y="2762">171.  2017-04-20 20:30:50 +0000     4219 bytes  test/vibrant.spec.coffee</tspan>
+<tspan x="10" y="2778">172.  2017-04-20 20:30:50 +0000      192 bytes  tsconfig.base.json</tspan>
+<tspan x="10" y="2794">173.  2017-04-20 20:30:50 +0000       42 bytes  tsconfig.browser.json</tspan>
+<tspan x="10" y="2810">174.  2017-04-20 20:30:50 +0000      159 bytes  tsconfig.json</tspan>
+<tspan x="10" y="2826">175.  2017-04-20 20:30:50 +0000    22534 bytes  vendor-mod/quantize.js</tspan>
+<tspan x="10" y="2842">176.  2017-04-20 20:30:50 +0000      761 bytes  webpack.config.js</tspan>
 </text>
 </svg>
