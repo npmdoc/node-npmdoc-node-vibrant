@@ -1,5 +1,8 @@
-# api documentation for  [node-vibrant (v2.1.2)](https://github.com/akfish/node-vibrant#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-vibrant.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-vibrant) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-vibrant.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-vibrant)
-#### Node.js port of vibrant.js. Get color variations from an image. Basically a JS port of Android's Palette
+# npmdoc-node-vibrant
+
+#### api documentation for  node-vibrant (v3.0.0-alpha.2)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-vibrant.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-vibrant) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-vibrant.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-vibrant)
+
+#### Extract prominent colors from an image. Supports both node and browser environment.
 
 [![NPM](https://nodei.co/npm/node-vibrant.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/node-vibrant)
 
@@ -18,57 +21,65 @@
 ```json
 
 {
-    "author": {
-        "name": "akfish"
-    },
+    "name": "node-vibrant",
+    "version": "3.0.0-alpha.2",
+    "description": "Extract prominent colors from an image. Supports both node and browser environment.",
+    "main": "lib/index.js",
     "browser": "lib/browser.js",
-    "bugs": {
-        "url": "https://github.com/akfish/node-vibrant/issues"
-    },
-    "dependencies": {
-        "jimp": "^0.2.4",
-        "quantize": "^1.0.1",
-        "url": "^0.11.0"
-    },
-    "description": "Node.js port of vibrant.js. Get color variations from an image. Basically a JS port of Android's Palette",
-    "devDependencies": {
-        "bluebird": "^2.10.2",
-        "browserify": "^10.2.4",
-        "chai": "^3.0.0",
-        "cli-table": "^0.3.1",
-        "coffee-script": "^1.9.3",
-        "coffeeify": "^1.1.0",
-        "colors": "^1.1.2",
-        "del": "^2.2.0",
-        "finalhandler": "^0.4.0",
-        "gulp": "^3.9.0",
-        "gulp-bench": "^1.1.0",
-        "gulp-coffee": "^2.3.1",
-        "gulp-heap": "^2.0.0-alpha.1",
-        "gulp-mocha": "^2.2.0",
-        "gulp-uglify": "^1.2.0",
-        "karma": "^0.13.14",
-        "karma-chai": "^0.1.0",
-        "karma-chrome-launcher": "^0.2.1",
-        "karma-coffee-preprocessor": "^0.3.0",
-        "karma-firefox-launcher": "^0.1.6",
-        "karma-ie-launcher": "^0.2.0",
-        "karma-json-fixtures-preprocessor": "0.0.5",
-        "karma-mocha": "^0.2.0",
-        "mocha": "^2.3.3",
-        "serve-static": "^1.10.0",
-        "vinyl-buffer": "^1.0.0",
-        "vinyl-source-stream": "^1.1.0"
-    },
+    "types": "lib/index.d.ts",
     "directories": {
         "example": "examples"
     },
-    "dist": {
-        "shasum": "741fc2584c411650506e4f98c32e046638a2c08e",
-        "tarball": "https://registry.npmjs.org/node-vibrant/-/node-vibrant-2.1.2.tgz"
+    "dependencies": {
+        "@types/bluebird": "^3.0.37",
+        "@types/jimp": "^0.2.0",
+        "@types/lodash": "^4.14.53",
+        "@types/node": "^7.0.5",
+        "bluebird": "^3.4.7",
+        "jimp": "^0.2.27",
+        "lodash": "^4.17.4",
+        "url": "^0.11.0"
     },
-    "gitHead": "89ffaf0b34d2200b836cc21f2ae143a47ab4fce3",
-    "homepage": "https://github.com/akfish/node-vibrant#readme",
+    "devDependencies": {
+        "@types/chai": "^3.4.35",
+        "@types/finalhandler": "0.0.31",
+        "@types/mocha": "^2.2.39",
+        "@types/serve-static": "^1.7.31",
+        "@types/table": "^4.0.1",
+        "chai": "^3.5.0",
+        "finalhandler": "^1.0.0",
+        "karma": "^1.5.0",
+        "karma-chai": "^0.1.0",
+        "karma-chrome-launcher": "^2.0.0",
+        "karma-commonjs": "^1.0.0",
+        "karma-firefox-launcher": "^1.0.0",
+        "karma-mocha": "^1.3.0",
+        "karma-webpack": "^2.0.2",
+        "mocha": "^3.2.0",
+        "rimraf": "^2.6.1",
+        "serve-static": "^1.11.2",
+        "table": "^4.0.1",
+        "ts-loader": "^2.0.1",
+        "typescript": "^2.2.1",
+        "webpack": "^2.2.1"
+    },
+    "scripts": {
+        "clean": "npm run clean:browser && npm run clean:node",
+        "clean:browser": "./node_modules/.bin/rimraf dist",
+        "clean:node": "./node_modules/.bin/rimraf lib",
+        "build": "npm run build:browser && npm run build:node",
+        "build:browser": "./node_modules/.bin/webpack --config webpack.config.js",
+        "build:node": "./node_modules/.bin/tsc",
+        "pretest": "npm run clean && npm run build",
+        "test": "npm run test:node && npm run test:browser",
+        "test:node": "./node_modules/.bin/mocha lib/test/**/*.spec.js",
+        "test:browser": "./node_modules/.bin/karma start karma.conf.js",
+        "prepublish": "npm run clean && npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/akfish/node-vibrant.git"
+    },
     "keywords": [
         "color",
         "detection",
@@ -80,25 +91,8 @@
         "muted",
         "colour"
     ],
-    "license": "MIT",
-    "main": "lib/index.js",
-    "maintainers": [
-        {
-            "name": "akfish"
-        }
-    ],
-    "name": "node-vibrant",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/akfish/node-vibrant.git"
-    },
-    "scripts": {
-        "prepublish": "gulp clean && gulp clean:browser && gulp coffee && gulp browser",
-        "pretest": "gulp coffee && gulp browser",
-        "test": "gulp test"
-    },
-    "version": "2.1.2"
+    "author": "akfish",
+    "license": "MIT"
 }
 ```
 
